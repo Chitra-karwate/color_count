@@ -1,27 +1,115 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    box-sizing:border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.box{
+    
+    width:200px;
+    height:120px;
+    margin:auto;
+}
+.color_box{
+    border:solid 1px red;
+    width:100px;
+    height:100px;
+    margin:auto;
+    margin-top:10px
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.count{
+    border:solid 1px red;
+    width:300px;
+    height:100px;
+    margin:auto;
+ }
+.count1{
+    border:solid 1px red;
+    float:left;
+    width:149px;
+    height:50px;
+ }
+ 
+.count2{
+    border:solid 1px red;
+    float:left;
+    width:149px;
+    height:50px;
+ }
+ 
+.count3{
+    border:solid 1px red;
+    float:left;
+    width:149px;
+    height:50px;
+ }
+
+.count4{
+    border:solid 1px red;
+    float:left;
+    width:149px;
+    height:50px;
+ }
+.colors{
+    border:solid 1px red;
+    width:300px;
+    height:200px;
+    margin:auto;
+ }
+ .color1{
+    border:1px solid red;
+    float:left;
+    height:100px;
+    width:149px;
+ }
+.color2{
+    border:1px solid red;
+    float:left;
+    height:100px;
+    width:149px;
+ }
+ .color3{
+    border:1px solid red;
+    float:left;
+    height:100px;
+    width:149px;
+ }
+.color4{
+    border:1px solid red;
+    float:left;
+    height:100px;
+    width:149px;
+ }
+ 
+#Green{
+    background:green;
+    width:60px;
+    height:25px;
+    margin-left:40px;
+    
+ }
+ 
+#Red{
+    background:red;
+    width:60px;
+    height:25px;
+    margin-left:40px;
+ }
+ 
+#Yellow{
+    background:yellow;
+    width:60px;
+    height:25px;
+    margin-left:40px;
+ }
+ 
+ #Blue{
+    background:blue;
+    margin-left:20px;
+    width:60px;
+    height:25px;
+    margin-left:40px;
 }
+
+
+ 
+    
